@@ -28,9 +28,7 @@ gems:
   - jekyll-sitemap
   - jekyll/imgix
 
-title: Trevor Carr
-name: test_deploy
-author: Trevor Carr
+name: Trevor Carr
 description: Trevor Carr is a multidiciplinary designer and front-end developer based
   in Baltimore, MD.
 timezone: UTC
