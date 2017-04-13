@@ -1,0 +1,1 @@
+var s,w=document.getElementById("html").getBoundingClientRect();window.outerWidth<700?(console.log("small"),s=[0,100]):window.outerWidth>2100?(console.log("large"),s=[50,50]):(console.log("med"),s=[30,70]),Split(["#r1","#r2"],{sizes:s,gutterSize:20,minSize:0});
