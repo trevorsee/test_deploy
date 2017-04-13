@@ -1,2 +1,2 @@
 //= require jquery/dist/jquery
-//= requqire Split.js/split.min.js
+//= require Split.js/split.min.js

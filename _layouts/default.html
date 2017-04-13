@@ -25,7 +25,6 @@
             {% if project.publish %}
               {% assign filtered-photo = {{project.photo}} | replace: '/uploads/', '' %}
               <div class="flex items-center">
-
                 <img
                   class="h-2 w-3 mr05 mb0125"
                   src="{{ filtered-photo | imgix_url: w: 300, h: 200, q: 70, fit: 'crop' }}"
@@ -49,9 +48,9 @@
       </div>
     </main>
 
-  {% if page.url != "/" %}
-    {% include javascripts.html %}
-  {% endif %}
+    {% if page.url != "/" %}
+      {% include javascripts.html %}
+    {% endif %}
 
 </body>
 </html>
