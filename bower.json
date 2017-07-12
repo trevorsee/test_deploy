@@ -1,7 +1,0 @@
-{
-  "name": "test_deploy",
-  "dependencies": {
-    "jquery": "~3.1.1",
-    "Split.js": "^1.2.0"
-  }
-}
